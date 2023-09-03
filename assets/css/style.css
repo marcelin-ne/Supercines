@@ -359,7 +359,7 @@ body.active { overflow: hidden; }
 
 .has-scrollbar::-webkit-scrollbar-track {
   background: transparent;
-  box-shadow: 0 0 0 2px var(--citrine);
+  /*box-shadow: 0 0 0 2px var(--citrine);*/
   border-radius: 10px;
 }
 
@@ -367,7 +367,7 @@ body.active { overflow: hidden; }
   background: var(--gainsboro);
   border-radius: 10px;
   box-shadow: inset 0 1px 0 var(--black),
-              inset 0 -1px 0 var(--black);
+              inset 0 -1px 0 var(--black); 
 }
 
 
@@ -531,7 +531,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .upcoming {
-  background: url("../images/upcoming-bg.png") no-repeat;
+
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
