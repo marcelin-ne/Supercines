@@ -938,9 +938,8 @@ body.active { overflow: hidden; }
 /*-----------------------------------*\
  * #MOVIE DETAIL 
 \*-----------------------------------*/
-
 .movie-detail {
-  background: url("../images/movie-detail-bg.png") no-repeat;
+  /*background: url("../images/elemental_wallpaper.jpg") no-repeat;*/
   background-size: cover;
   background-position: center;
   padding-top: 160px;
@@ -950,7 +949,7 @@ body.active { overflow: hidden; }
 .movie-detail-banner {
   position: relative;
   background: var(--gunmetal-1);
-  max-width: 300px;
+  max-width: auto;
   margin-inline: auto;
   border-radius: 6px;
   overflow: hidden;
