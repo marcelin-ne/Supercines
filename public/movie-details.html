@@ -2,32 +2,30 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Guy 2021</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Guy 2021</title>
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    
+    <!-- 
     - custom css link
-  -->
-  <link rel="stylesheet" href="/Supercines/assets/css/style.css">
+    -->
+    <link rel="stylesheet" href="../assets/css/style.css">
 
-  <!-- 
+    <!-- 
     - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
-  <!--Flowbite-->
-
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+<!--Tailwind-->  
+<!--Flowbite-->
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body id="#top">
@@ -38,45 +36,45 @@
 <!--Header-->
 <header>
   <nav class="bg-gray-900 border-gray-200 dark:bg-gray-800" tabindex="0" >
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div class="max-w-screen-lg flex flex-wrap items-center text-white justify-between mx-auto p-4">
       <!--Logoitipo Redirección a Inicio-->
-      <a href="./home.html" class="flex items-center" >
+      <a href="./home.html" class="flex items-center text-white" >
               <img src="/assets/images/Logo_Supercines.png" alt="Logo de Supercines" tabindex="1>
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+          <span class="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
       </a>
       <!--Drodown menu to select the spot-->
-      <div class="flex items-center  md:order-2">
+      <div class="flex items-center text-white  md:order-2">
           <button type="button" data-dropdown-toggle="language-dropdown-menu" class="text-white bg-gray-800 hover:bg-gray-600 focus:outline-none focus:ring-4 focus:ring-gray-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" tabindex="6">
                   <i class="fa-solid fa-map-pin mr-4"></i> Rio Centro Quito
           </button>
       </button>
           <!-- Dropdown -->
-          <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-900" id="language-dropdown-menu">
-          <ul class="py-2 font-medium" role="none">
+        <div class="z-50 hidden my-4 text-base text-center text-white list-none bg-white divide-y divide-gray-300 rounded-lg shadow dark:bg-gray-900" id="language-dropdown-menu">
+        <ul class="py-2 font-medium" role="none">
               <li>
-              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                  <div class="inline-flex items-center" tabindex="7">
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                  <div class="inline-flex items-center text-white" tabindex="7">
                       6 de Diciembre
                   </div>
               </a>
               </li>
               <li>
-              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                  <div class="inline-flex items-center" tabindex="8">
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                  <div class="inline-flex items-center text-white" tabindex="8">
                       Quicentro Sur
                   </div>
               </a>
               </li>
               <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                      <div class="inline-flex items-center" tabindex="9">
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                      <div class="inline-flex items-center text-white" tabindex="9">
                       San Luis
                   </div>
                   </a>
               </li>
               <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                  <div class="inline-flex items-center" tabindex="10">
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                  <div class="inline-flex items-center text-white" tabindex="10">
                       Riocentro Quito
                   </div>
                   </a>
@@ -84,31 +82,31 @@
               </ul>
           </div>
           <!--Block to control User profile & Account-->
-          <div class="flex items-center md:order-2 mx-4">
-              <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom" tabindex="11">
+          <div class="flex items-center text-white md:order-2 mx-4">
+              <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom" tabindex="11">
                   <span class="sr-only">Abrir menú de perfil</span>
                   <img class="w-8 h-8 rounded-full" src="https://i.pinimg.com/564x/a2/10/da/a210da10f17f0e15dbbe861016c135d1.jpg" alt="user photo">
               </button>
               <!-- Dropdown menu -->
-              <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+              <div class="z-50 hidden my-4 text-base text-center text-white list-none bg-white divide-y divide-gray-300 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
                   <div class="px-4 py-3">
                   <span class="block text-sm text-gray-900 dark:text-white" tabindex="12">Elena Gilbert</span>
                   <span class="block text-sm  text-gray-500 truncate dark:text-gray-400" tabindex="13">elenasalvatore@gmail.com</span>
               </div>
               <ul class="py-2" aria-labelledby="user-menu-button" tabindex="14">
                   <li>
-                      <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" tabindex="15">Mis Compras</a>
+                      <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" tabindex="15">Mis Compras</a>
                   </li>
                   </li>
                   <li>
-                      <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" tabindex="16">Cerrar Sesión</a>
+                      <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" tabindex="16">Cerrar Sesión</a>
                   </li>
               </ul>
               </div>
           </div>
       
           <!-- Nav Menu with the 4 options to navigate-->
-          <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
+          <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center text-white p-2 w-10 h-10 justify-center text-white text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
                   <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -116,16 +114,16 @@
           </button>
       </div>
       <!--Navbar Central Menu-->
-          <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 bg-transparent" id="navbar-language" tabindex="2">
-          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <div class="items-center text-white justify-between hidden w-full md:flex md:w-auto md:order-1 bg-transparent" id="navbar-language" tabindex="2">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-300 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
-                  <a href="#" class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page" tabindex="3">Inicio</a>
+                  <a href="#" class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 md:dark:text-gray-900 text-white w-16" aria-current="page" tabindex="3">Inicio</a>
               </li>
               <li>
-                  <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" tabindex="4">Cartelera</a>
+                  <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 md:dark:hover:text-gray-900 text-white w-16 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" tabindex="4">Cartelera</a>
               </li>
               <li>
-                  <a href="#" class="block py-2 pl-3 pr-4 text-white bg-transparent rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" tabindex="5" > Precios</a>
+                  <a href="#" class="block py-2 pl-3 pr-4 text-white bg-transparent rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 dark:text-white md:dark:hover:text-gray-900 text-white w-16 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" tabindex="5" > Precios</a>
               </li>
           </ul>
           </div>
@@ -137,11 +135,11 @@
 
 <!--Movie Detail Banner -->
 
-<section class="movie-detail ">
+<section class="movie-detail bg-gray-900 ">
   <div class="container">
     <!--Cover de la Pelicula --->
     <figure class="movie-detail-banner w-56 h-80">
-      <img src="/Supercines/assets/images/OPPENHEIMER_cartelera.jpeg" alt="Free guy movie poster">
+      <img src="../assets/images/OPPENHEIMER_cartelera.jpeg" alt="Free guy movie poster">
     </figure>
     <!--Detalles de la Pelicula-->
     <div class="movie-detail-content w-80">
@@ -182,9 +180,122 @@
 
 
 
+<section class="bg-gray-900">
+    <div class="container mx-auto w-4/5">
+        <div class="flex">
+            <!-- Columna 1 -->
+            <div class="w-1/3  text-white shadow-lg rounded-lg">
+                <!-- Fila 1 en la Columna 1 -->
+                <div class="mb-4 flex items-center">
+                    <span class="mr-2 text-2xl">Usted está en:</span>
+                    <select class="border rounded p-2 border-blue-500 mx-4">
+                        <option value="riocentro">1. Riocentro</option>
+                        <option value="sanluis">2. San Luis</option>
+                        <option value="riocentro2">3. Riocentro</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Columna 2 -->
+            <div class="w-1/2  p-4 shadow-lg rounded-lg ">
+                <!-- Fila 1 en la Columna 2 -->
+                <h1 class="text-2xl text-yellow-300">Septiembre</h1>
+                <p class="text-white py-4">Escoja el dia de la función</p>
+                <div class="mb-4 bg-gray-500 px-4 py-2  rounded-lg">
+                    <!-- Crear 6 tarjetas -->
+                    
+                    <div class="grid grid-cols-6 ">
+                        <!-- Tarjeta 1 -->
+                        <div class="bg-gray-900 text-white m-0 w-16 p-4 rounded-lg">
+                            <div class="text-center">
+                                <div class="text-lg font-bold">SEP</div>
+                                <div class="text-lg">09</div>
+                            </div>
+                        </div>
+                        <!-- Repetir para las otras tarjetas -->
+                        <!-- Tarjeta 2 -->
+                        <div class="bg-gray-900 text-white w-16 p-4 rounded-lg">
+                            <div class="text-center">
+                                <div class="text-lg font-bold">SEP</div>
+                                <div class="text-lg">10</div>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 3 -->
+                        <div class="bg-gray-900 text-white w-16 p-4 rounded-lg">
+                            <div class="text-center">
+                                <div class="text-lg font-bold">SEP</div>
+                                <div class="text-lg">11</div>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 4 -->
+                        <div class="bg-gray-900 text-white w-16 p-4 rounded-lg">
+                            <div class="text-center">
+                                <div class="text-lg font-bold">SEP</div>
+                                <div class="text-lg">12</div>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 5 -->
+                        <div class="bg-gray-900 text-white w-16 p-4 rounded-lg">
+                            <div class="text-center">
+                                <div class="text-lg font-bold">SEP</div>
+                                <div class="text-lg">13</div>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 6 -->
+                        <div class="bg-gray-900 text-white w-16 p-4 rounded-lg">
+                            <div class="text-center">
+                                <div class="text-lg font-bold">SEP</div>
+                                <div class="text-lg">14</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fila 2 en la Columna 2 -->
+                <div class="flex py-2 text-white" >Funciones Disponibles: </div>
+                <div class="bg-white p-4 shadow-lg rounded-lg py-2">
+                    <!-- Fila 1 -->
+                    <div class="mb-4 py-2">
+                        <div class="badge-wrapper">
+                            <div class="badge badge-fill bg-yellow-300"> 3D </div> <!--Formato de la Pelicula-->
+                            <div class="badge badge-fill bg-yellow-300"> Subtitulada </div> <!--Idioma de la pelicula-->
+                            <div>Sillas: General</div>
+                            <div>IMAX</div>
+                        </div>
+                    </div>
+                    <!-- Horarios-->
+                    <div>
+                        <div class="badge-wrapper">
+                            <button class="badge badge-fill bg-gray-300"> 18h00 </button> <!--Formato de la Pelicula-->
+                            <button class="badge badge-fill bg-gray-300"> 19h00 </button> <!--Idioma de la pelicula-->
+                            <button class="badge badge-fill bg-gray-300"> 19h45 </button> <!--Formato de la Pelicula-->
+                            <button class="badge badge-fill bg-gray-300">20h00</button> <!--Idioma de la pelicula-->
+                        </div>       
+                    </div>
+                </div>
+                <br>
+                <div class="bg-white p-4 shadow-lg rounded-lg">
+                    <!-- Fila 1 -->
+                    <div class="mb-4">
+                        <div class="badge-wrapper">
+                            <div class="badge badge-fill bg-yellow-300"> 2D </div> <!--Formato de la Pelicula-->
+                            <div class="badge badge-fill bg-yellow-300"> Subtitulada </div> <!--Idioma de la pelicula-->
+                            <div>Sillas: General</div>
+                        </div>
+                    </div>
+                    <!-- Horarios-->
+                    <div>
+                        <div class="badge-wrapper">
+                            <button class="badge badge-fill bg-gray-300"> 18h00 </button> <!--Formato de la Pelicula-->
+                            <button class="badge badge-fill bg-gray-300"> 19h00 </button> <!--Idioma de la pelicula-->
+                            <button class="badge badge-fill bg-gray-300"> 19h45 </button> <!--Formato de la Pelicula-->
+                            <button class="badge badge-fill bg-gray-300">20h00</button> <!--Idioma de la pelicula-->
+                        </div>       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  
-
+</section>
 
 
 
@@ -193,12 +304,12 @@
   -->
 
   <footer class="bg-gray-900 dark:bg-gray-900" tabindex="76" aria-label="Pie de Página">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div class="mx-auto w-full max-w-screen-lg p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
+            <a href="https://flowbite.com/" class="flex items-center text-white">
                 <i class="fa-solid fa-ticket fa-2xl mx-4" style="color:#ffffff"></i>
-                <span class="self-center  text-white text-2xl font-semibold whitespace-nowrap dark:text-white" tabindex="77" > Supercines</span>
+                <span class="self-center text-white  text-white text-2xl font-semibold whitespace-nowrap dark:text-white" tabindex="77" > Supercines</span>
             </a>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -237,7 +348,7 @@
                     </a>
                     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="87">Teléfono : 1-800-626262 </p>
                     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="88">Horario : 10h00am  - 21h00pm</p>
-                    <a href="#" class="inline-flex items-center text-blue-600 hover:underline" tabindex="89">
+                    <a href="#" class="inline-flex items-center text-white text-gray-900 text-white w-16 hover:underline" tabindex="89">
                         Solicita asistencia en tu compra
                         <svg class="w-3 h-3 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
@@ -248,10 +359,10 @@
         </div>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between" tabindex="90">
-            <span class="text-sm text-gray-400 sm:text-center dark:text-gray-400" tabindex="90" >© 2020 <a href="https://flowbite.com/" class="hover:underline">Corporación El Rosado S.A.</a>Todos los derechos reservados.
+        <div class="sm:flex sm:items-center text-white sm:justify-between" tabindex="90">
+            <span class="text-sm text-gray-400 sm:text-center text-white dark:text-gray-400" tabindex="90" >© 2020 <a href="https://flowbite.com/" class="hover:underline">Corporación El Rosado S.A.</a>Todos los derechos reservados.
             </span>
-        <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+        <div class="flex mt-4 space-x-5 sm:justify-center text-white sm:mt-0">
             <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
                 <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                         <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
@@ -293,6 +404,8 @@
   -->
   <script src="./assets/js/script.js"></script>
 
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
   <!-- 
     - ionicon link
