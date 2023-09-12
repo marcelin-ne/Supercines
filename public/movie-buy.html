@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Guy 2021</title>
+    <title>Seleccionar entradas</title>
 
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet"/>
     <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/5d3f8aa1f4.js" crossorigin="anonymous"></script>
-    
+
     <!-- 
     - custom css link
     -->
@@ -25,203 +24,246 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
-<!--Tailwind-->  
-<!--Flowbite-->
-<script src="https://cdn.tailwindcss.com"></script>
+    <!--Tailwind-->
+    <!--Flowbite-->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body id="#top">
 
-  <!-- 
-    - #HEADER
-  -->
+<!--
+  - #HEADER
+-->
 <!--Header-->
 <header>
-  <nav class="bg-gray-900 border-gray-200 dark:bg-gray-800" tabindex="0" >
-      <div class="max-w-screen-lg flex flex-wrap items-center text-white justify-between mx-auto p-4">
-      <!--Logoitipo Redirección a Inicio-->
-      <a href="./home.html" class="flex items-center text-white" >
-              <img src="/assets/images/Logo_Supercines.png" alt="Logo de Supercines" tabindex="1>
-          <span class="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
-      </a>
-      <!--Drodown menu to select the spot-->
-      <div class="flex items-center text-white  md:order-2">
-          <button type="button" data-dropdown-toggle="language-dropdown-menu" class="text-white bg-gray-800 hover:bg-gray-600 focus:outline-none focus:ring-4 focus:ring-gray-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" tabindex="6">
-                  <i class="fa-solid fa-map-pin mr-4"></i> Rio Centro Quito
-          </button>
-      </button>
-          <!-- Dropdown -->
-        <div class="z-50 hidden my-4 text-base text-center text-white list-none bg-white divide-y divide-gray-300 rounded-lg shadow dark:bg-gray-900" id="language-dropdown-menu">
-        <ul class="py-2 font-medium" role="none">
-              <li>
-              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                  <div class="inline-flex items-center text-white" tabindex="7">
-                      6 de Diciembre
-                  </div>
-              </a>
-              </li>
-              <li>
-              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                  <div class="inline-flex items-center text-white" tabindex="8">
-                      Quicentro Sur
-                  </div>
-              </a>
-              </li>
-              <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                      <div class="inline-flex items-center text-white" tabindex="9">
-                      San Luis
-                  </div>
-                  </a>
-              </li>
-              <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                  <div class="inline-flex items-center text-white" tabindex="10">
-                      Riocentro Quito
-                  </div>
-                  </a>
-              </li>
-              </ul>
-          </div>
-          <!--Block to control User profile & Account-->
-          <div class="flex items-center text-white md:order-2 mx-4">
-              <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom" tabindex="11">
-                  <span class="sr-only">Abrir menú de perfil</span>
-                  <img class="w-8 h-8 rounded-full" src="https://i.pinimg.com/564x/a2/10/da/a210da10f17f0e15dbbe861016c135d1.jpg" alt="user photo">
-              </button>
-              <!-- Dropdown menu -->
-              <div class="z-50 hidden my-4 text-base text-center text-white list-none bg-white divide-y divide-gray-300 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
-                  <div class="px-4 py-3">
-                  <span class="block text-sm text-gray-900 dark:text-white" tabindex="12">Elena Gilbert</span>
-                  <span class="block text-sm  text-gray-500 truncate dark:text-gray-400" tabindex="13">elenasalvatore@gmail.com</span>
-              </div>
-              <ul class="py-2" aria-labelledby="user-menu-button" tabindex="14">
-                  <li>
-                      <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" tabindex="15">Mis Compras</a>
-                  </li>
-                  </li>
-                  <li>
-                      <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" tabindex="16">Cerrar Sesión</a>
-                  </li>
-              </ul>
-              </div>
-          </div>
-      
-          <!-- Nav Menu with the 4 options to navigate-->
-          <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center text-white p-2 w-10 h-10 justify-center text-white text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                  </svg>
-          </button>
-      </div>
-      <!--Navbar Central Menu-->
-          <div class="items-center text-white justify-between hidden w-full md:flex md:w-auto md:order-1 bg-transparent" id="navbar-language" tabindex="2">
-          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-300 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <li>
-                  <a href="#" class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 md:dark:text-gray-900 text-white w-16" aria-current="page" tabindex="3">Inicio</a>
-              </li>
-              <li>
-                  <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 md:dark:hover:text-gray-900 text-white w-16 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" tabindex="4">Cartelera</a>
-              </li>
-              <li>
-                  <a href="#" class="block py-2 pl-3 pr-4 text-white bg-transparent rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 dark:text-white md:dark:hover:text-gray-900 text-white w-16 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" tabindex="5" > Precios</a>
-              </li>
-          </ul>
-          </div>
-  
-      </div>
-      </nav>
-  </header>
-  
+    <nav class="bg-gray-900 border-gray-200 dark:bg-gray-800">
+        <div class="max-w-screen-lg flex flex-wrap items-center text-white justify-between mx-auto p-4">
+            <!--Logotipo Redirección a Inicio-->
+            <a href="./home.html" class="flex items-center text-white" tabindex="1">
+                <img src="/assets/images/Logo_Supercines.png" alt="Logo de Supercines">
+                <span class=" self-center text-white text-2xl font-semibold whitespace-nowrap"></span>
+            </a>
+            <!--Drodown menu to select the spot-->
+            <div class="flex items-center text-white  md:order-2">
+                <button type="button" data-dropdown-toggle="language-dropdown-menu"
+                        class="text-white bg-gray-800 hover:bg-gray-600 focus:outline-none focus:ring-4 focus:ring-gray-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        tabindex="6">
+                    <i class="fa-solid fa-map-pin mr-4"></i> Rio Centro Quito
+                </button>
+                <!-- Dropdown -->
+                <div class="z-50 hidden my-4 text-base text-center text-white list-none bg-white divide-y divide-gray-300 rounded-lg shadow dark:bg-gray-900"
+                     id="language-dropdown-menu">
+                    <ul class="py-2 font-medium" role="none">
+                        <li>
+                            <a href="#"
+                               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                               role="menuitem">
+                                <div class="inline-flex items-center text-white" tabindex="7">
+                                    6 de Diciembre
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                               role="menuitem">
+                                <div class="inline-flex items-center text-white" tabindex="8">
+                                    Quicentro Sur
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                               role="menuitem">
+                                <div class="inline-flex items-center text-white" tabindex="9">
+                                    San Luis
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                               role="menuitem">
+                                <div class="inline-flex items-center text-white" tabindex="10">
+                                    Riocentro Quito
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Block to control User profile & Account-->
+                <div class="flex items-center text-white md:order-2 mx-4">
+                    <button type="button"
+                            class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                            id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown"
+                            data-dropdown-placement="bottom" tabindex="11">
+                        <span class="sr-only">Abrir menú de perfil</span>
+                        <img class="w-8 h-8 rounded-full"
+                             src="https://i.pinimg.com/564x/a2/10/da/a210da10f17f0e15dbbe861016c135d1.jpg"
+                             alt="user photo">
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div class="z-50 hidden my-4 text-base text-center text-white list-none bg-white divide-y divide-gray-300 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+                         id="user-dropdown">
+                        <div class="px-4 py-3">
+                            <div class="block text-sm text-gray-900 dark:text-white" tabindex="12">Elena Gilbert</div>
+                            <div class="block text-sm  text-gray-500 truncate dark:text-gray-400" tabindex="13">elenasalvatore@gmail.com</div>
+                        </div>
+                        <ul class="py-2" aria-labelledby="user-menu-button" tabindex="14">
+                            <li>
+                                <a href="#"
+                                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                                   tabindex="15">Mis Compras</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                                   tabindex="16">Cerrar Sesión</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Nav Menu with the 4 options to navigate-->
+                <button data-collapse-toggle="navbar-language" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-white text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-language" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                         viewBox="0 0 17 14" role="img">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+            </div>
+            <!--Navbar Central Menu-->
+            <div class="items-center text-white justify-between hidden w-full md:flex md:w-auto md:order-1 bg-transparent"
+                 id="navbar-language" tabindex="2">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-300 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="home.html"
+                           class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 md:dark:text-gray-900"
+                           aria-current="page" tabindex="3">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="block py-2 pl-3 pr-4 rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 md:dark:hover:text-gray-900 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                           tabindex="4">Cartelera</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="block py-2 pl-3 pr-4 bg-transparent rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-gray-900 text-white w-16 md:p-0 dark:text-white md:dark:hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                           tabindex="5"> Precios</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
 
 
 <!--Steps de Compra-->
 <div class="bg-gray-900 my-4">
     <div class="w-full py-6">
         <div class="flex text-white">
-          <div class="w-1/4">
-            <div class="relative mb-2">
-              <div class="w-10 h-10 mx-auto bg-yellow-400 rounded-full text-lg text-white flex items-center">
+            <div class="w-1/4">
+                <div class="relative mb-2">
+                    <div class="w-10 h-10 mx-auto bg-yellow-400 rounded-full text-lg text-white flex items-center">
                 <span class="text-center text-white w-full">
-                  <svg class="w-full fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path class="heroicon-ui" d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm14 8V5H5v6h14zm0 2H5v6h14v-6zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                  <svg class="w-full fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                       height="24" role="img">
+                    <path class="heroicon-ui"
+                          d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm14 8V5H5v6h14zm0 2H5v6h14v-6zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
                   </svg>
                 </span>
-              </div>
-            </div>
-      
-            <div class="text-xs text-center md:text-base">Selecciona tus entradas</div>
-          </div>
-      
-          <div class="w-1/4">
-            <div class="relative mb-2">
-              <div class="absolute flex align-center items-center align-middle content-center" style="width: calc(100% - 2.5rem - 1rem); top: 50%; transform: translate(-50%, -50%)">
-                <div class="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
-                  <div class="w-0 bg-yellow-400 py-1 rounded" style="width: 100%;"></div>
+                    </div>
                 </div>
-              </div>
-      
-              <div class="w-10 h-10 mx-auto bg-yellow-400 rounded-full text-lg text-white flex items-center">
+
+                <div class="text-xs text-center md:text-base" tabindex="17">Selecciona tus entradas</div>
+            </div>
+
+            <div class="w-1/4">
+                <div class="relative mb-2">
+                    <div class="absolute flex align-center items-center align-middle content-center"
+                         style="width: calc(100% - 2.5rem - 1rem); top: 50%; transform: translate(-50%, -50%)">
+                        <div class="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
+                            <div class="w-0 bg-yellow-400 py-1 rounded" style="width: 100%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="w-10 h-10 mx-auto bg-yellow-400 rounded-full text-lg text-white flex items-center">
                 <span class="text-center text-white w-full">
-                  <svg class="w-full fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path class="heroicon-ui" d="M19 10h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2h-2a1 1 0 0 1 0-2h2V8a1 1 0 0 1 2 0v2zM9 12A5 5 0 1 1 9 2a5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5v2z"/>
+                  <svg class="w-full fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                       height="24" role="img">
+                    <path class="heroicon-ui"
+                          d="M19 10h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2h-2a1 1 0 0 1 0-2h2V8a1 1 0 0 1 2 0v2zM9 12A5 5 0 1 1 9 2a5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5v2z"/>
                   </svg>
                 </span>
-              </div>
-            </div>
-      
-            <div class="text-xs text-center md:text-base">Selecciona tus asientos</div>
-          </div>
-      
-          <div class="w-1/4">
-            <div class="relative mb-2">
-              <div class="absolute flex align-center items-center align-middle content-center" style="width: calc(100% - 2.5rem - 1rem); top: 50%; transform: translate(-50%, -50%)">
-                <div class="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
-                  <div class="w-0 bg-yellow-400 py-1 rounded" style="width: 33%;"></div>
+                    </div>
                 </div>
-              </div>
-      
-              <div class="w-10 h-10 mx-auto bg-white border-2 border-gray-200 rounded-full text-lg text-white flex items-center">
+
+                <div class="text-xs text-center md:text-base" tabindex="18">Selecciona tus asientos</div>
+            </div>
+
+            <div class="w-1/4">
+                <div class="relative mb-2">
+                    <div class="absolute flex align-center items-center align-middle content-center"
+                         style="width: calc(100% - 2.5rem - 1rem); top: 50%; transform: translate(-50%, -50%)">
+                        <div class="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
+                            <div class="w-0 bg-yellow-400 py-1 rounded" style="width: 33%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="w-10 h-10 mx-auto bg-white border-2 border-gray-200 rounded-full text-lg text-white flex items-center">
                 <span class="text-center text-gray-600 w-full">
-                  <svg class="w-full fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path class="heroicon-ui" d="M9 4.58V4c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v.58a8 8 0 0 1 1.92 1.11l.5-.29a2 2 0 0 1 2.74.73l1 1.74a2 2 0 0 1-.73 2.73l-.5.29a8.06 8.06 0 0 1 0 2.22l.5.3a2 2 0 0 1 .73 2.72l-1 1.74a2 2 0 0 1-2.73.73l-.5-.3A8 8 0 0 1 15 19.43V20a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-.58a8 8 0 0 1-1.92-1.11l-.5.29a2 2 0 0 1-2.74-.73l-1-1.74a2 2 0 0 1 .73-2.73l.5-.29a8.06 8.06 0 0 1 0-2.22l-.5-.3a2 2 0 0 1-.73-2.72l1-1.74a2 2 0 0 1 2.73-.73l.5.3A8 8 0 0 1 9 4.57zM7.88 7.64l-.54.51-1.77-1.02-1 1.74 1.76 1.01-.17.73a6.02 6.02 0 0 0 0 2.78l.17.73-1.76 1.01 1 1.74 1.77-1.02.54.51a6 6 0 0 0 2.4 1.4l.72.2V20h2v-2.04l.71-.2a6 6 0 0 0 2.41-1.4l.54-.51 1.77 1.02 1-1.74-1.76-1.01.17-.73a6.02 6.02 0 0 0 0-2.78l-.17-.73 1.76-1.01-1-1.74-1.77 1.02-.54-.51a6 6 0 0 0-2.4-1.4l-.72-.2V4h-2v2.04l-.71.2a6 6 0 0 0-2.41 1.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                  <svg class="w-full fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                       height="24" role="img">
+                    <path class="heroicon-ui"
+                          d="M9 4.58V4c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v.58a8 8 0 0 1 1.92 1.11l.5-.29a2 2 0 0 1 2.74.73l1 1.74a2 2 0 0 1-.73 2.73l-.5.29a8.06 8.06 0 0 1 0 2.22l.5.3a2 2 0 0 1 .73 2.72l-1 1.74a2 2 0 0 1-2.73.73l-.5-.3A8 8 0 0 1 15 19.43V20a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-.58a8 8 0 0 1-1.92-1.11l-.5.29a2 2 0 0 1-2.74-.73l-1-1.74a2 2 0 0 1 .73-2.73l.5-.29a8.06 8.06 0 0 1 0-2.22l-.5-.3a2 2 0 0 1-.73-2.72l1-1.74a2 2 0 0 1 2.73-.73l.5.3A8 8 0 0 1 9 4.57zM7.88 7.64l-.54.51-1.77-1.02-1 1.74 1.76 1.01-.17.73a6.02 6.02 0 0 0 0 2.78l.17.73-1.76 1.01 1 1.74 1.77-1.02.54.51a6 6 0 0 0 2.4 1.4l.72.2V20h2v-2.04l.71-.2a6 6 0 0 0 2.41-1.4l.54-.51 1.77 1.02 1-1.74-1.76-1.01.17-.73a6.02 6.02 0 0 0 0-2.78l-.17-.73 1.76-1.01-1-1.74-1.77 1.02-.54-.51a6 6 0 0 0-2.4-1.4l-.72-.2V4h-2v2.04l-.71.2a6 6 0 0 0-2.41 1.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
                   </svg>
                 </span>
-              </div>
-            </div>
-      
-            <div class="text-xs text-center md:text-base">Realiza el Pago</div>
-          </div>
-      
-          <div class="w-1/4">
-            <div class="relative mb-2">
-              <div class="absolute flex align-center items-center align-middle content-center" style="width: calc(100% - 2.5rem - 1rem); top: 50%; transform: translate(-50%, -50%)">
-                <div class="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
-                  <div class="w-0 bg-yellow-400 py-1 rounded" style="width: 0%;"></div>
+                    </div>
                 </div>
-              </div>
-      
-              <div class="w-10 h-10 mx-auto bg-white border-2 border-gray-200 rounded-full text-lg text-white flex items-center">
+
+                <div class="text-xs text-center md:text-base" tabindex="19">Realiza el Pago</div>
+            </div>
+
+            <div class="w-1/4">
+                <div class="relative mb-2">
+                    <div class="absolute flex align-center items-center align-middle content-center"
+                         style="width: calc(100% - 2.5rem - 1rem); top: 50%; transform: translate(-50%, -50%)">
+                        <div class="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
+                            <div class="w-0 bg-yellow-400 py-1 rounded" style="width: 0;"></div>
+                        </div>
+                    </div>
+
+                    <div class="w-10 h-10 mx-auto bg-white border-2 border-gray-200 rounded-full text-lg text-white flex items-center">
                 <span class="text-center text-gray-600 w-full">
-                  <svg class="w-full fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path class="heroicon-ui" d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2.3-8.7l1.3 1.29 3.3-3.3a1 1 0 0 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-2-2a1 1 0 0 1 1.4-1.42z"/>
+                  <svg class="w-full fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                       height="24" role="img">
+                    <path class="heroicon-ui"
+                          d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2.3-8.7l1.3 1.29 3.3-3.3a1 1 0 0 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-2-2a1 1 0 0 1 1.4-1.42z"/>
                   </svg>
                 </span>
-              </div>
+                    </div>
+                </div>
+
+                <div class="text-xs text-center md:text-base" tabindex="20">Resumen de compra</div>
             </div>
-      
-            <div class="text-xs text-center md:text-base">Resumen de compra</div>
-          </div>
         </div>
-      </div>
+    </div>
 </div>
 
 <!--Movie Buy Resume -->
 <section class="bg-gray-900 my-2">
-    <!--Informacion del tiempo de compra-->
+    <!--Información del tiempo de compra-->
 
-    <div class="bg-blue-600 text-center text-white tect-lg w-1/2 rounded-lg p-2 my-2 mx-auto"> Atención , recuerda que tienes 10h02 minutos para completar tu compra</div>
+    <div class="bg-blue-600 text-center text-white tect-lg w-1/2 rounded-lg p-2 my-2 mx-auto" tabindex="21"> Atención,
+        recuerda que
+        tienes 10:02 minutos para completar tu compra
+    </div>
 
     <div class="container mx-auto ml-36">
         <!-- Fila con dos columnas -->
@@ -233,33 +275,34 @@
                     <!-- Primera Columna con Imagen -->
                     <div class="w-56  p-2 rounded-lg">
                         <!-- Agrega tu imagen aquí -->
-                        <img src="../assets/images/OPPENHEIMER_cartelera.jpeg" alt="Imagen" class="w-full h-auto rounded-lg">
+                        <img src="../assets/images/OPPENHEIMER_cartelera.jpeg" alt="Portada de la pelicula Oppenhaimer"
+                             class="w-full h-auto rounded-lg">
                     </div>
                     <!-- Segunda Columna dividida en 6 filas -->
                     <div class="w-1/2 p-4">
                         <!-- Fila 1 de la Segunda Columna -->
                         <div class="mb-4">
-                            <p class="text-3xl mx-auto text-yellow-300 ">Oppenhaimer</p>
+                            <p class="text-3xl mx-auto text-yellow-300 " tabindex="23">Oppenhaimer</p>
                         </div>
                         <!-- Fila 2 de la Segunda Columna -->
                         <div class="mb-4">
-                            <p class="text-white">Sala 4 | Todo Pùblico | 180min | Acción |</p>
+                            <p class="text-white" tabindex="24">Sala 4 | Todo Público | 180 min | Acción |</p>
                         </div>
                         <!-- Fila 3 de la Segunda Columna -->
                         <div class="mb-4">
-                            <p class="text-yellow-300  text-2xl">Complejo:</p>
+                            <p class="text-yellow-300  text-2xl" tabindex="25">Complejo:</p>
                         </div>
                         <!-- Fila 4 de la Segunda Columna -->
                         <div class="mb-4">
-                            <p class="text-white text-xl">Rio Centro</p>
+                            <p class="text-white text-xl" tabindex="26">Rio Centro</p>
                         </div>
                         <!-- Fila 5 de la Segunda Columna -->
                         <div class="mb-4">
-                            <p class="text-yellow-300 text-2xl">Tecnología:</p>
+                            <p class="text-yellow-300 text-2xl" tabindex="27">Tecnología:</p>
                         </div>
                         <!-- Fila 6 de la Segunda Columna -->
                         <div>
-                            <p class="text-white ">2D Doblada</p>
+                            <p class="text-white" tabindex="28">2D Doblada</p>
                         </div>
                     </div>
                 </div>
@@ -269,48 +312,64 @@
                 <div class="w-1/2 p-4">
                     <!-- Fila 1 de la Segunda Columna -->
                     <div class="mb-4">
-                        <p class="text-3xl mx-auto text-yellow-300 ">Fecha:</p>
+                        <p class="text-3xl mx-auto text-yellow-300 " tabindex="29">Fecha:</p>
                     </div>
                     <!-- Fila 2 de la Segunda Columna -->
                     <div class="mb-4">
-                        <p class="text-white">Jueves, 14 de Septiembre </p>
+                        <p class="text-white" tabindex="30">Jueves, 14 de septiembre </p>
                     </div>
                     <!-- Fila 3 de la Segunda Columna -->
                     <div class="mb-4">
-                        <p class="text-yellow-300 my-4 text-2xl">Hora:</p>
+                        <p class="text-yellow-300 my-4 text-2xl" tabindex="31">Hora:</p>
                         <div class="flex ">
-                            <div class="badge badge-fill p-2 bg-gray-900 border-blue-500 text-white text-sm rounded-lg mx-2"> 18:00 </div> <!--Formato de la Pelicula-->
-                            <div class="badge badge-fill p-2 bg-gray-900 border-blue-500 text-white text-sm rounded-lg mx-2 "> 19:20  </div>
-                            <div class="badge badge-fill p-2 bg-yellow-300 border-yellow-500 text-dark text-sm rounded-lg mx-2 "> 20:00  </div>
-                            <div class="badge badge-fill p-2 bg-gray-900 border-blue-500 text-white text-sm rounded-lg mx-2 "> 20:30  </div>
-                            <div class="badge badge-fill p-2 bg-gray-900 border-blue-500 text-white text-sm rounded-lg mx-2 "> 21:30  </div>
+                            <div class="badge badge-fill p-2 bg-gray-900 border-blue-500 text-white text-sm rounded-lg mx-2"
+                                 tabindex="32">
+                                18:00
+                            </div> <!--Formato de la Pelicula-->
+                            <div class="badge badge-fill p-2 bg-gray-900 border-blue-500 text-white text-sm rounded-lg mx-2 "
+                                 tabindex="33">
+                                19:20
+                            </div>
+                            <div class="badge badge-fill p-2 bg-yellow-300 border-yellow-500 text-dark text-sm rounded-lg mx-2 "
+                                 tabindex="34">
+                                20:00
+                            </div>
+                            <div class="badge badge-fill p-2 bg-gray-900 border-blue-500 text-white text-sm rounded-lg mx-2 "
+                                 tabindex="35">
+                                20:30
+                            </div>
+                            <div class="badge badge-fill p-2 bg-gray-900 border-blue-500 text-white text-sm rounded-lg mx-2 "
+                                 tabindex="36">
+                                21:30
+                            </div>
                         </div>
                     </div>
-                
+
+                </div>
             </div>
         </div>
-    </div>
 
-    <!--Eleccion de numero de asientos-->
-    <div class="w-5/6">
-        <div class="container w-full">
-            <!-- Fila con tres columnas -->
-            <div class="flex bg-gray-800">
-                <!-- Primera Columna (50% del ancho) -->
-                <div class="w-1/2 p-4 flex">
-                    <p class="text-yellow-300 text-2xl ml-4">Asientos disponibles:</p>
-                    <p class="text-white text-2xl ml-4 ">30</p>
-                </div>
-                <div class="w-1/2 p-4 flex justify-end">
-                    <p class="text-yellow-300 text-2xl ml-4">General</p>
-                    <p class="text-white text-2xl ml-4 ">$13,90</p>
-                </div>
-                <!-- Tercera Columna (25% del ancho) -->
-                <div class="w-1/4 p-4 flex">
-                    <!-- Contenido de la Tercera Columna -->
-                    <i class="fa-solid fa-plus text-yellow-300 text-2xl mx-4"></i>
-                    <p class="text-3xl text-white">2</p> 
-                    <i class="fa-solid fa-minus  text-yellow-300  text-2xl mx-4"></i>
+        <!--Elección de número de asientos-->
+        <div class="w-5/6">
+            <div class="container w-full">
+                <!-- Fila con tres columnas -->
+                <div class="flex bg-gray-800">
+                    <!-- Primera Columna (50% del ancho) -->
+                    <div class="w-1/2 p-4 flex">
+                        <p class="text-yellow-300 text-2xl ml-4" tabindex="37">Asientos disponibles:</p>
+                        <p class="text-white text-2xl ml-4 " tabindex="38">30</p>
+                    </div>
+                    <div class="w-1/2 p-4 flex justify-end">
+                        <p class="text-yellow-300 text-2xl ml-4" tabindex="39">General</p>
+                        <p class="text-white text-2xl ml-4 " tabindex="40">$13,90</p>
+                    </div>
+                    <!-- Tercera Columna (25% del ancho) -->
+                    <div class="w-1/4 p-4 flex">
+                        <!-- Contenido de la Tercera Columna -->
+                        <i class="fa-solid fa-plus text-yellow-300 text-2xl mx-4" tabindex="41" aria-label="Agregar boletos"></i>
+                        <p class="text-3xl text-white" tabindex="42">2</p>
+                        <i class="fa-solid fa-minus  text-yellow-300  text-2xl mx-4" tabindex="43" aria-label="Restar boletos"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -319,125 +378,135 @@
 </section>
 
 
+<!--
+  - #FOOTER
+-->
 
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="bg-gray-900 dark:bg-gray-900" tabindex="76" aria-label="Pie de Página">
+<footer class="bg-gray-900 dark:bg-gray-900" tabindex="76" aria-label="Pie de Página">
     <div class="mx-auto w-full max-w-screen-lg p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center text-white">
-                <i class="fa-solid fa-ticket fa-2xl mx-4" style="color:#ffffff"></i>
-                <span class="self-center text-white  text-white text-2xl font-semibold whitespace-nowrap dark:text-white" tabindex="77" > Supercines</span>
-            </a>
-        </div>
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-                <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white" tabindex="78" >Cartelera</h2>
-                <ul class="text-gray-400 dark:text-gray-400 font-medium">
-                    <li class="mb-4">
-                        <a href="https://tailwindcss.com/" class="hover:underline" tabindex="79" >Todas las películas</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://flowbite.com/" class="hover:underline" tabindex="80" >Próximos Estrenos</a>
-                    </li>
-                    <li>
-                        <a href="https://tailwindcss.com/" class="hover:underline" tabindex="81" >Preventa</a>
-                    </li>
-                </ul>
+            <div class="mb-6 md:mb-0">
+                <a href="#" class="flex items-center text-white">
+                    <i class="fa-solid fa-ticket fa-2xl mx-4" style="color:#ffffff"></i>
+                    <div class="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-white"
+                          tabindex="77"> Supercines</div>
+                </a>
             </div>
-            <div>
-                <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white" tabindex="82" >Contáctanos</h2>
-                <ul class="text-gray-400 dark:text-gray-400 font-medium">
-                    <li class="mb-4">
-                        <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="83"  >Escríbenos</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="84" >Trabaja con Nosotros</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="85">Quejas y Sugerencias</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white"><i class="fa-solid fa-headphones mx-2" tabindex="86"></i> Atención al Cliente</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="87">Teléfono : 1-800-626262 </p>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="88">Horario : 10h00am  - 21h00pm</p>
-                    <a href="#" class="inline-flex items-center text-white text-gray-900 text-white w-16 hover:underline" tabindex="89">
-                        Solicita asistencia en tu compra
-                        <svg class="w-3 h-3 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
-                        </svg>
-                    </a>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white" tabindex="78">
+                        Cartelera</h2>
+                    <ul class="text-gray-400 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline" tabindex="79">Todas las
+                                películas</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline" tabindex="80">Próximos Estrenos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline" tabindex="81">Preventa</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white" tabindex="82">
+                        Contáctanos</h2>
+                    <ul class="text-gray-400 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="83">Escríbenos</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="84">Trabaja
+                                con Nosotros</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="85">Quejas
+                                y Sugerencias</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white" tabindex="86"><i
+                                    class="fa-solid fa-headphones mx-2"></i> Atención al Cliente</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="87">Teléfono:
+                            1-800-626262 </p>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="88">Horario : 10h00am -
+                            21h00pm</p>
+                        <a href="#"
+                           class="inline-flex items-center text-white text-gray-900 w-16 hover:underline"
+                           tabindex="89">
+                            Solicita asistencia en tu compra
+                            <svg class="w-3 h-3 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                 fill="none" viewBox="0 0 18 18" role="img">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="sm:flex sm:items-center text-white sm:justify-between" tabindex="90">
-            <span class="text-sm text-gray-400 sm:text-center text-white dark:text-gray-400" tabindex="90" >© 2020 <a href="https://flowbite.com/" class="hover:underline">Corporación El Rosado S.A.</a>Todos los derechos reservados.
-            </span>
-        <div class="flex mt-4 space-x-5 sm:justify-center text-white sm:mt-0">
-            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
+        <div class="sm:flex sm:items-center text-white sm:justify-between">
+            <div class="text-sm text-gray-400 sm:text-center text-white dark:text-gray-400" tabindex="90">© 2020
+                <a href="https://flowbite.com/" class="hover:underline">Corporación El Rosado S.A.</a>Todos los derechos reservados.
+            </div>
+            <div class="flex mt-4 space-x-5 sm:justify-center text-white sm:mt-0">
+                <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                         viewBox="0 0 8 19" role="img">
+                        <path fill-rule="evenodd"
+                              d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                              clip-rule="evenodd"/>
                     </svg>
-                <span class="sr-only" tabindex="91" >Facebook page</span>
-            </a>
-            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                <i class="fa-brands fa-instagram"></i>              
-                <span class="sr-only" tabindex="92">Instagram</span>
-            </a>            
-            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
-                </svg>
-                <span class="sr-only" tabindex="93">Twitter page</span>
-            </a>
+                    <div class="sr-only" tabindex="91">Facebook page</div>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <i class="fa-brands fa-instagram"></i>
+                    <div class="sr-only" tabindex="92">Instagram</div>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                         viewBox="0 0 20 17" role="img">
+                        <path fill-rule="evenodd"
+                              d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                              clip-rule="evenodd"/>
+                    </svg>
+                    <div class="sr-only" tabindex="93">Twitter page</div>
+                </a>
+            </div>
         </div>
-    </div>
     </div>
 </footer>
 
 
+<!--
+  - #GO TO TOP
+-->
 
-
-  <!-- 
-    - #GO TO TOP
-  -->
-
-  <a href="#top" class="go-top" data-go-top>
+<a href="#top" class="go-top" data-go-top>
     <ion-icon name="chevron-up"></ion-icon>
-  </a>
+</a>
 
 
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
 
+<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 

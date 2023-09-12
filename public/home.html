@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,7 @@
 
 
     <style>
-        * {
-
-        }
+        * {}
     </style>
     <title>Supercines</title>
 
@@ -23,7 +22,113 @@
 <body>
 
 
+    <!--Header-->
+    <header>
+        <nav class="bg-gray-900 border-gray-200 dark:bg-gray-800">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <!--Logoitipo Redirección a Inicio-->
+                <a href="./home.html" class="flex items-center" tabindex="1">
+                    <img src="/assets/images/Logo_Supercines.png" alt="Logo de Supercines">
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+                </a>
+                <!--Drodown menu to select the spot-->
+                <div class="flex items-center  md:order-2">
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu"
+                        class="text-white bg-gray-800 hover:bg-gray-600 focus:outline-none focus:ring-4 focus:ring-gray-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        tabindex="6">
+                        <i class="fa-solid fa-map-pin mr-4"></i> Rio Centro Quito
+                    </button>
+                    <!-- Dropdown -->
+                    <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-900"
+                        id="language-dropdown-menu">
+                        <ul class="py-2 font-medium" role="none">
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                    role="menuitem">
+                                    <div class="inline-flex items-center" tabindex="7">
+                                        6 de Diciembre
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                    role="menuitem">
+                                    <div class="inline-flex items-center" tabindex="8">
+                                        Quicentro Sur
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                    role="menuitem">
+                                    <div class="inline-flex items-center" tabindex="9">
+                                        San Luis
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                    role="menuitem">
+                                    <div class="inline-flex items-center" tabindex="10">
+                                        Riocentro Quito
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Block to control User profile & Account-->
+                    <div class="flex items-center md:order-2 mx-4">
+                        <button type="button"
+                            class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-600"
+                            id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown"
+                            data-dropdown-placement="bottom" tabindex="11">
+                            <span class="sr-only">Abrir menú de perfil</span>
+                            <img class="w-8 h-8 rounded-full"
+                                src="https://i.pinimg.com/564x/a2/10/da/a210da10f17f0e15dbbe861016c135d1.jpg"
+                                alt="Foto del usuario">
+                        </button>
+                        <!-- Dropdown menu -->
+                        <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+                            id="user-dropdown">
+                            <div class="px-4 py-3">
+                                <div class="block text-sm text-gray-900 dark:text-white" tabindex="12">Elena Gilbert
+                                </div>
+                                <div class="block text-sm  text-gray-500 truncate dark:text-gray-400" tabindex="13">
+                                    elenasalvatore@gmail.com
+                                </div>
+                            </div>
+                            <ul class="py-2" aria-labelledby="user-menu-button" tabindex="14">
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                                        tabindex="15">Mis Compras</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                                        tabindex="16">Cerrar Sesión</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
+<<<<<<< HEAD
+                    <!-- Nav Menu with the 4 options to navigate-->
+                    <button data-collapse-toggle="navbar-language" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-language" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+=======
 <!--Header-->
 <header>
 <nav class="bg-gray-900 border-gray-200 dark:bg-gray-800" tabindex="0" >
@@ -38,7 +143,6 @@
         <button type="button" data-dropdown-toggle="language-dropdown-menu" class="text-white bg-gray-800 hover:bg-gray-600 focus:outline-none focus:ring-4 focus:ring-gray-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" tabindex="6">
                 <i class="fa-solid fa-map-pin mr-4"></i> Rio Centro Quito
         </button>
-    </button>
         <!-- Dropdown -->
         <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-900" id="language-dropdown-menu">
         <ul class="py-2 font-medium" role="none">
@@ -46,496 +150,529 @@
             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                 <div class="inline-flex items-center" tabindex="7">
                     6 de Diciembre
+>>>>>>> 01ccdaf (x)
                 </div>
-            </a>
-            </li>
-            <li>
-            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                <div class="inline-flex items-center" tabindex="8">
-                    Quicentro Sur
+                <!--Navbar Central Menu-->
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 bg-transparent"
+                    id="navbar-language" tabindex="2">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-blue-500"
+                                aria-current="page" tabindex="3">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                tabindex="4">Cartelera</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-white bg-transparent rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                tabindex="5"> Precios</a>
+                        </li>
+                    </ul>
                 </div>
-            </a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                    <div class="inline-flex items-center" tabindex="9">
-                    San Luis
+
+            </div>
+        </nav>
+    </header>
+
+    <!--Home Cover-->
+
+    <section tabindex="17">
+        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+            <!-- Carousel wrapper -->
+            <div class="relative overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/assets/images/Gran_Turismo_Movie.png"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                <div class="inline-flex items-center" tabindex="10">
-                    Riocentro Quito
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/assets/images/La_Monja_Cover.jpeg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
-                </a>
-            </li>
-            </ul>
-        </div>
-        <!--Block to control User profile & Account-->
-        <div class="flex items-center md:order-2 mx-4">
-            <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom" tabindex="11">
-                <span class="sr-only">Abrir menú de perfil</span>
-                <img class="w-8 h-8 rounded-full" src="https://i.pinimg.com/564x/a2/10/da/a210da10f17f0e15dbbe861016c135d1.jpg" alt="user photo">
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/assets/images/Sonido_Libertad_Cover.jpeg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://www.supercines.com/PromotionalImages/toc-toc-toc-el-sonido-del-mal_1_2023-08-31_298720230831.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://www.supercines.com/PromotionalImages/asteroid-city_1_2023-08-31_298820230831.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0" tabindex="20"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1" tabindex="21"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2" tabindex="22"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3" tabindex="23"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4" tabindex="24"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only" tabindex="18" role="button">Previous</span>
+                </span>
             </button>
-            <!-- Dropdown menu -->
-            <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
-                <div class="px-4 py-3">
-                <span class="block text-sm text-gray-900 dark:text-white" tabindex="12">Elena Gilbert</span>
-                <span class="block text-sm  text-gray-500 truncate dark:text-gray-400" tabindex="13">elenasalvatore@gmail.com</span>
-            </div>
-            <ul class="py-2" aria-labelledby="user-menu-button" tabindex="14">
-                <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" tabindex="15">Mis Compras</a>
-                </li>
-                </li>
-                <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white" tabindex="16">Cerrar Sesión</a>
-                </li>
-            </ul>
-            </div>
+            <button type="button"
+                class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only" tabindex="19" role="button">Next</span>
+                </span>
+            </button>
         </div>
-
-        <!-- Nav Menu with the 4 options to navigate-->
-        <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-        </button>
-    </div>
-    <!--Navbar Central Menu-->
-        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 bg-transparent" id="navbar-language" tabindex="2">
-        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page" tabindex="3">Inicio</a>
-            </li>
-            <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" tabindex="4">Cartelera</a>
-            </li>
-            <li>
-                <a href="#" class="block py-2 pl-3 pr-4 text-white bg-transparent rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" tabindex="5" > Precios</a>
-            </li>
-        </ul>
-        </div>
-
-    </div>
-    </nav>
-</header>
-
-<!--Home Cover-->
-
-<section tabindex="17">
+    </section>
 
 
-<div id="default-carousel" class="relative w-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative overflow-hidden rounded-lg md:h-96">
-         <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/assets/images/Gran_Turismo_Movie.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/assets/images/La_Monja_Cover.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/assets/images/Sonido_Libertad_Cover.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.supercines.com/PromotionalImages/toc-toc-toc-el-sonido-del-mal_1_2023-08-31_298720230831.jpg"absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.supercines.com/PromotionalImages/asteroid-city_1_2023-08-31_298820230831.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-    </div>
-    <!-- Slider indicators -->
-    <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0" tabindex="20"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1" tabindex="21"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2" tabindex="22" ></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3" tabindex="23" ></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4" tabindex="24"></button>
-    </div>
-    <!-- Slider controls -->
-    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only" tabindex="18">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only" tabindex="19">Next</span>
-        </span>
-    </button>
-</div>
-</section>
+    <!--Billboard Preview-->
 
-
-<!--Billboard Preview-->
-
-<section class="upcoming bg-gray-900" aria-label="Sección previsualización de Cartelera" tabindex="25">
+    <section class="upcoming bg-gray-900" aria-label="Sección previsualización de Cartelera" tabindex="25">
         <div class="container">
             <div class="flex-wrapper">
-            <div class="title-wrapper">
-                <p class="section-subtitle" tabindex="26">Vive la Experiencia Supercines</p>
-                <h2 class="h2 section-title" tabindex="27">Películas de Estreno</h2>
-            </div>
-            <ul class="filter-list" tabindex="28" aria-label="Filtros de busqueda de películas" >
-                <li>
-                    <button
-                    class="flex select-none items-center gap-3 rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                    type="button"
-                    data-ripple-light="true"
-                    tabindex="29"
-                    >
-                    Preventa
-                    </button>
-                </li>
-                <li>
-                    <button
-                    class="flex select-none items-center gap-3 rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-yellow-300 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                    type="button"
-                    data-ripple-light="true"
-                    tabindex="30"
-                    >
-                    Estrenos
-                    </button>
-                </li>
-                <li>
-                    <button
-                        class="flex select-none items-center gap-3 rounded-lg bg-yellow-300 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                        type="button"
-                        data-ripple-light="true"
-                        tabindex="31"
-                        >
-                        <i class="fa-solid fa-film fa-lg"></i>
+                <div class="title-wrapper">
+                    <p class="section-subtitle" tabindex="26">Vive la Experiencia Supercines</p>
+                    <h2 class="h2 section-title" tabindex="27">Películas de Estreno</h2>
+                </div>
+                <ul class="filter-list" tabindex="28" aria-label="Filtros de busqueda de películas">
+                    <li>
+                        <button
+                            class="flex select-none items-center gap-3 rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            type="button" data-ripple-light="true" tabindex="29">
+                            Preventa
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                            class="flex select-none items-center gap-3 rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-yellow-300 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            type="button" data-ripple-light="true" tabindex="30">
+                            Estrenos
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                            class="flex select-none items-center gap-3 rounded-lg bg-yellow-300 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            type="button" data-ripple-light="true" tabindex="31">
+                            <i class="fa-solid fa-film fa-lg"></i>
 
-                    Cartelera
-                    </button>
+                            Cartelera
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--This block has a scrollbar for responsibe design -->
+            <!--Movie Cards preview-->
+            <ul class="movies-list has-scrollbar" tabindex="32"
+                aria-label="Lista de películas en cartelera con scrollbar">
+                <!--Card 1-->
+                <li>
+                    <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card"
+                        style="background-image: url('/assets/images/La_Monja_Cover.jpeg'); background-repeat: no-repeat; background-size: cover;"
+                        aria-label="Película La Monja">
+                        <!---->
+                        <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+                            style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
+                            <div
+                                class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
+                                <!-- Nombre de la película -->
+                                <h5 class="text-xl font-medium mb-2" tabindex="34"> La Monja</h5>
+                                <!-- Tipo de película y restricciones -->
+                                <div class="flex items-center space-x-2 mb-2">
+                                    <div class="bg-pink-500 text-white px-2 py-1 rounded-full text-xs" tabindex="35">
+                                        Preventa
+                                    </div>
+                                    <div class="bg-red-500 text-white px-2 py-1 rounded-full text-xs" tabindex="36">R
+                                    </div>
+                                    <span class="text-gray-400 ml-2" tabindex="37"> +15 </span>
+                                </div>
+                                <!-- Duración de la película -->
+                                <p class="mb-2" tabindex="38">Duración: 1 h 30 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Botón de llamada a la acción "Ver Horarios" -->
+                    <a href="movie-details.html"
+                        class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
+                        <div class="flex justify-center items-center" tabindex="39">
+                            Ver Horarios
+                        </div>
+                    </a>
+                </li>
+                <!--Card 2 -->
+
+                <li>
+                    <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card"
+                        style="background-image: url('/assets/images/Barbie_Cartelera.jpeg'); background-repeat: no-repeat; background-size: cover;"
+                        aria-label="Película Barbie">
+                        <!---->
+                        <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+                            style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
+                            <div
+                                class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
+                                <!-- Nombre de la película -->
+                                <h5 class="text-xl font-medium mb-2" tabindex="41">Barbie</h5>
+                                <!-- Tipo de película y restricciones -->
+                                <div class="flex items-center space-x-2 mb-2">
+                                    <div class="bg-blue-500 text-white px-2 py-1 rounded-full text-xs" tabindex="42">
+                                        Estreno
+                                    </div>
+                                    <span class="text-gray-400 ml-2" tabindex="43"> All Public</span>
+                                </div>
+                                <!-- Duración de la película -->
+                                <p class="mb-2" tabindex="44"> Duración: 1 h 30 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Botón de llamada a la acción "Ver Horarios" -->
+                    <a href="movie-details.html"
+                        class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
+                        <div class="flex justify-center items-center" tabindex="45">
+                            Ver Horarios
+                        </div>
+                    </a>
+                </li>
+
+                <!--Card 3-->
+                <li>
+                    <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card"
+                        style="background-image: url('/assets/images/Dracula_Cartelra.jpeg'); background-repeat: no-repeat; background-size: cover;"
+                        aria-label="Pelicula Drácula">
+                        <!---->
+                        <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+                            style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
+                            <div
+                                class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
+                                <!-- Nombre de la película -->
+                                <h5 class="text-xl font-medium mb-2" tabindex="47">Dracula</h5>
+                                <!-- Tipo de película y restricciones -->
+                                <div class="flex items-center space-x-2 mb-2">
+                                    <span class="text-gray-400 ml-2" tabindex="48">+12</span>
+                                </div>
+                                <!-- Duración de la película -->
+                                <p class="mb-2" tabindex="49">Duración: 2 h 15 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Botón de llamada a la acción "Ver Horarios" -->
+                    <a href="movie-details.html"
+                        class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
+                        <div class="flex justify-center items-center" tabindex="50">
+                            Ver Horarios
+                        </div>
+                    </a>
+                </li>
+
+                <!--Card 4-->
+                <li>
+                    <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card"
+                        style="background-image: url('/assets/images/Gran_turimos_Cartelera.jpeg'); background-repeat: no-repeat; background-size: cover;"
+                        aria-label="Película Gran Turismo">
+                        <!---->
+                        <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+                            style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
+                            <div
+                                class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
+                                <!-- Nombre de la película -->
+                                <h5 class="text-xl font-medium mb-2" tabindex="52">Gran Turismo</h5>
+                                <!-- Tipo de película y restricciones -->
+                                <div class="flex items-center space-x-2 mb-2">
+                                    <div class="bg-blue-500 text-white px-2 py-1 rounded-full text-xs" tabindex="53">
+                                        Estreno
+                                    </div>
+                                    <span class="text-gray-400 ml-2" tabindex="54">Todo público</span>
+                                </div>
+                                <!-- Duración de la película -->
+                                <p class="mb-2" tabindex="55">Duración: 1 h 30 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Botón de llamada a la acción "Ver Horarios" -->
+                    <a href="movie-details.html"
+                        class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
+                        <div class="flex justify-center items-center" tabindex="56">
+                            Ver Horarios
+                        </div>
+                    </a>
+                </li>
+                <!--Card 5 -->
+                <li>
+                    <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card"
+                        style="background-image: url('/assets/images/OPPENHEIMER_cartelera.jpeg'); background-repeat: no-repeat; background-size: cover;"
+                        aria-label="Película Oppenheimer">
+                        <!---->
+                        <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+                            style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
+                            <div
+                                class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
+                                <!-- Nombre de la película -->
+                                <h5 class="text-xl font-medium mb-2" tabindex="58">Oppenheimer</h5>
+                                <!-- Tipo de película y restricciones -->
+                                <div class="flex items-center space-x-2 mb-2">
+                                    <span class="text-gray-400 ml-2" tabindex="59"> +15 </span>
+                                </div>
+                                <!-- Duración de la película -->
+                                <p class="mb-2" tabindex="60">Duración: 2 h 50 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Botón de llamada a la acción "Ver Horarios" -->
+                    <a href="movie-details.html"
+                        class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
+                        <div class="flex justify-center items-center" tabindex="61">
+                            Ver Horarios
+                        </div>
+                    </a>
                 </li>
             </ul>
         </div>
+    </section>
 
-
-
-
-
-
-
-<!--This block has a scrollbar for responsibe design -->
-<!--Movie Cards preview-->
-        <ul class="movies-list has-scrollbar" tabindex="32" aria-label="Lista de películas en cartelera con scrollbar">
-            <!--Card 1-->
-            <li>
-                <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card" style="background-image: url('/assets/images/La_Monja_Cover.jpeg'); background-repeat: no-repeat; background-size: cover;" tabindex="33" aria-label="Pelicula La Monja" >
-                    <!---->
-                    <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
-                    <div class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
-                        <!-- Nombre de la película -->
-                        <h5 class="text-xl font-medium mb-2" tabindex="34"> La Monja</h5>
-                        <!-- Tipo de película y restricciones -->
-                        <div class="flex items-center space-x-2 mb-2">
-                            <div class="bg-pink-500 text-white px-2 py-1 rounded-full text-xs" tabindex="35" >Preventa</div>
-                            <div class="bg-red-500 text-white px-2 py-1 rounded-full text-xs" tabindex="36">R</div>
-                            <span class="text-gray-400 ml-2" tabindex="37"> +15 </span>
+    <!--Publicity Secction-->
+    <section class="publicity bg-gray-900" tabindex="62" aria-label="Publicidad de Supercines">
+        <div class="container mx-auto">
+            <div class="flex flex-col sm:flex-row gap-4">
+                <!-- Primera columna con tarjeta grande -->
+                <div class="flex-1">
+                    <a href="#"
+                        class="block max-w-full h-80 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div class="w-full h-full" tabindex="63">
+                            <img src="https://www.supercines.com/Promotions/celebra-tu-cumple-footer-1620221124.jpg"
+                                class="w-full h-full object-fit rounded-lg" alt="Celebra tu cumpleaños con Supercines">
                         </div>
-                        <!-- Duración de la película -->
-                        <p class="mb-2" tabindex="38" >Duración: 1h 30min</p>
-                    </div>
-                    </div>
-                </div>
-                <!-- Botón de llamada a la acción "Ver Horarios" -->
-                <a href="#" class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
-                    <div class="flex justify-center items-center" tabindex="39">
-                        Ver Horarios
-                    </div>
-                </a>
-            </li>
-<!--Card 2 -->
-
-            <li>
-                <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card" style="background-image: url('/assets/images/Barbie_Cartelera.jpeg'); background-repeat: no-repeat; background-size: cover;" tabindex="40" aria-label="Pelicula Barbie">
-                    <!---->
-                    <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));" >
-                    <div class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
-                        <!-- Nombre de la película -->
-                        <h5 class="text-xl font-medium mb-2" tabindex="41" >Barbie</h5>
-                        <!-- Tipo de película y restricciones -->
-                        <div class="flex items-center space-x-2 mb-2">
-                            <div class="bg-blue-500 text-white px-2 py-1 rounded-full text-xs" tabindex="42">Estreno</div>
-                            <span class="text-gray-400 ml-2" tabindex="43"> All Public</span>
-                        </div>
-                        <!-- Duración de la película -->
-                        <p class="mb-2" tabindex="44"> Duración: 1h 30min</p>
-                    </div>
-                    </div>
-                </div>
-                <!-- Botón de llamada a la acción "Ver Horarios" -->
-                <a href="#" class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
-                    <div class="flex justify-center items-center" tabindex="45">
-                        Ver Horarios
-                    </div>
-                </a>
-            </li>
-
-            <!--Card 3-->
-            <li>
-                <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card" style="background-image: url('/assets/images/Dracula_Cartelra.jpeg'); background-repeat: no-repeat; background-size: cover;" tabindex="46" aria-label="Pelicula Drácula">
-                    <!---->
-                    <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
-                    <div class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
-                        <!-- Nombre de la película -->
-                        <h5 class="text-xl font-medium mb-2" tabindex="47">Dracula</h5>
-                        <!-- Tipo de película y restricciones -->
-                        <div class="flex items-center space-x-2 mb-2">
-                            <span class="text-gray-400 ml-2" tabindex="48">+12</span>
-                        </div>
-                        <!-- Duración de la película -->
-                        <p class="mb-2" tabindex="49">Duración: 2h 15min</p>
-                    </div>
-                    </div>
-                </div>
-                <!-- Botón de llamada a la acción "Ver Horarios" -->
-                <a href="#" class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
-                    <div class="flex justify-center items-center" tabindex="50">
-                        Ver Horarios
-                    </div>
-                </a>
-            </li>
-
-            <!--Card 4-->
-            <li>
-                <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card" style="background-image: url('/assets/images/Gran_turimos_Cartelera.jpeg'); background-repeat: no-repeat; background-size: cover;" tabindex="51" aria-label="Pelicula Gran Turismo">
-                    <!---->
-                    <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
-                    <div class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
-                        <!-- Nombre de la película -->
-                        <h5 class="text-xl font-medium mb-2" tabindex="52" >Gran Turismo</h5>
-                        <!-- Tipo de película y restricciones -->
-                        <div class="flex items-center space-x-2 mb-2">
-                            <div class="bg-blue-500 text-white px-2 py-1 rounded-full text-xs" tabindex="53">Estreno</div>
-                            <span class="text-gray-400 ml-2" tabindex="54" >Todo público</span>
-                        </div>
-                        <!-- Duración de la película -->
-                        <p class="mb-2" tabindex="55">Duración: 1h 30min</p>
-                    </div>
-                    </div>
-                </div>
-                <!-- Botón de llamada a la acción "Ver Horarios" -->
-                <a href="#" class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
-                    <div class="flex justify-center items-center" tabindex="56">
-                        Ver Horarios
-                    </div>
-                </a>
-            </li>
-        <!--Card 5 -->
-            <li>
-                <div class="w-full relative overflow-hidden border border-gray-200 rounded-lg shadow dark:border-gray-700 movie-card" style="background-image: url('/assets/images/OPPENHEIMER_cartelera.jpeg'); background-repeat: no-repeat; background-size: cover;"  aria-label="Oppenheimer" tabindex="57">
-                    <!---->
-                    <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(150, 72, 72, 0));">
-                    <div class="p-4 text-white absolute bottom-0 w-full bg-gradient-to-t from-black via-transparent">
-                        <!-- Nombre de la película -->
-                        <h5 class="text-xl font-medium mb-2" tabindex="58">Oppenheimer</h5>
-                        <!-- Tipo de película y restricciones -->
-                        <div class="flex items-center space-x-2 mb-2">
-                            <span class="text-gray-400 ml-2"tabindex="59"> +15 </span>
-                        </div>
-                        <!-- Duración de la película -->
-                        <p class="mb-2" tabindex="60">Duración: 2h 50min</p>
-                    </div>
-                    </div>
-                </div>
-                <!-- Botón de llamada a la acción "Ver Horarios" -->
-                <a href="#" class="block bg-blue-700 text-white py-2 my-2  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center">
-                    <div class="flex justify-center items-center" tabindex="61">
-                        Ver Horarios
-                    </div>
-                </a>
-            </li>
-        </ul>
-        </div>
-</section>
-
-<!--Publicity Secction-->
-<section class="publicity bg-gray-900" tabindex="62" aria-label="Publicidad de Supercines">
-    <div class="container mx-auto">
-        <div class="flex flex-col sm:flex-row gap-4">
-            <!-- Primera columna con tarjeta grande -->
-            <div class="flex-1">
-                <a href="#" class="block max-w-full h-80 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                    <div class="w-full h-full">
-                        <img src="https://www.supercines.com/Promotions/celebra-tu-cumple-footer-1620221124.jpg" class="w-full h-full object-fit rounded-lg" alt="Celebra tu cumpleaños con Supercines" tabindex="63">
-                    </div>
-                </a>
-            </div>
-
-
-            <!-- Segunda columna con dos tarjetas en posición vertical -->
-            <div class="flex-1">
-                <!-- Tarjeta 1 -->
-                <a href="#" class="block max-w-full  bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                    <div class="w-full h-full">
-                        <img src="https://www.supercines.com/Promotions/imax-footer-1820221222.jpg" class="w-full h-full object-cover rounded-lg" alt="Vive la experiencia IMAX" tabindex="64">
-                    </div>
-                </a>
-
-                <!-- Tarjeta 2 -->
-                <a href="#" class="block max-w-full my-4  bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                    <div class="w-full h-full">
-                        <img src="https://www.supercines.com/Promotions/canguil-28120230805.jpg" class="w-full h-full object-cover rounded-lg" alt="Descubre más sabores de canguil" tabindex="65">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!--Prices Section -->
-
-<section >
-    <div class="bg-gray-900 dark:bg-gray-900">
-        <div class="container px-6 py-8 mx-auto">
-            <h1 class="mt-4 text-2xl font-semibold text-center text-white capitalize lg:text-3xl dark:text-white" tabindex="66">Conoce nuestros precios</h1>
-            <div class="mt-6 space-y-8 xl:mt-12">
-                <div class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border cursor-pointer rounded-xl dark:border-gray-700">
-                    <div class="flex items-center">
-                        <i class="fa-solid fa-users fa-lg" style="color: #ffffff;"></i>
-                        <div class="flex flex-col items-center mx-5 space-y-1">
-                            <h2 class="text-lg font-medium text-white sm:text-2xl dark:text-gray-200" tabindex="67"> General</h2>
-                            <div class="px-2 text-xs text-blue-500  rounded-full sm:px-4 sm:py-1 dark:bg-gray-700" tabindex="68">
-                                Costo de entrada para público general
-                            </div>
-                        </div>
-                    </div>
-                    <h2 class="text-2xl font-semibold text-gray-500 sm:text-3xl dark:text-gray-300" tabindex="69">$ 7.39</h2>
-                </div>
-                <div class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border border-blue-500 cursor-pointer rounded-xl">
-                    <div class="flex items-center">
-                        <i class="fa-solid fa-star fa-xl" style="color: #ffffff;"></i>
-                        <div class="flex flex-col items-center mx-5 space-y-1">
-                            <h2 class="text-lg font-medium text-white sm:text-2xl dark:text-gray-200" tabindex="70"> Club Beneficios Supercines</h2>
-                            <div class="px-2 text-xs text-blue-500  rounded-full sm:px-4 sm:py-1 dark:bg-gray-700" tabindex="71">
-                                Tienes hasta 4 entradas disponibles del Club de Beneficios para hoy
-                            </div>
-                        </div>
-                    </div>
-                    <h2 class="text-2xl font-semibold text-white sm:text-4xl" tabindex="72">$ 6.72</h2>
-                </div>
-                <div class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border cursor-pointer rounded-xl dark:border-gray-700">
-                    <div class="flex items-center">
-                        <i class="fa-solid fa-universal-access fa-xl" style="color: #ffffff;"></i>
-                        <div class="flex flex-col items-center mx-5 space-y-1">
-                            <h2 class="text-lg font-medium text-white sm:text-2xl dark:text-gray-200" tabindex="73">Descuentos</h2>
-                            <div class="px-2 text-xs text-blue-500 rounded-full sm:px-4 sm:py-1 dark:bg-gray-700" tabindex="74">
-                                Tercera Edad y Personas con Discapacidad
-                                <p>Se requiere presentar cédula de identidad</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h2 class="text-2xl font-semibold text-white sm:text-3xl dark:text-gray-300" tabindex="75">$ 3.95</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<footer class="bg-gray-900 dark:bg-gray-900" tabindex="76" aria-label="Pie de Página">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
-                <i class="fa-solid fa-ticket fa-2xl mx-4" style="color:#ffffff"></i>
-                <span class="self-center  text-white text-2xl font-semibold whitespace-nowrap dark:text-white" tabindex="77" > Supercines</span>
-            </a>
-        </div>
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-                <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white" tabindex="78" >Cartelera</h2>
-                <ul class="text-gray-400 dark:text-gray-400 font-medium">
-                    <li class="mb-4">
-                        <a href="https://tailwindcss.com/" class="hover:underline" tabindex="79" >Todas las películas</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://flowbite.com/" class="hover:underline" tabindex="80" >Próximos Estrenos</a>
-                    </li>
-                    <li>
-                        <a href="https://tailwindcss.com/" class="hover:underline" tabindex="81" >Preventa</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white" tabindex="82" >Contáctanos</h2>
-                <ul class="text-gray-400 dark:text-gray-400 font-medium">
-                    <li class="mb-4">
-                        <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="83"  >Escríbenos</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="84" >Trabaja con Nosotros</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://www.supercines.com/escribenos" class="hover:underline" tabindex="85">Quejas y Sugerencias</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white"><i class="fa-solid fa-headphones mx-2" tabindex="86"></i> Atención al Cliente</h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="87">Teléfono : 1-800-626262 </p>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="88">Horario : 10h00am  - 21h00pm</p>
-                    <a href="#" class="inline-flex items-center text-blue-600 hover:underline" tabindex="89">
-                        Solicita asistencia en tu compra
-                        <svg class="w-3 h-3 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+                </div>
+
+
+                <!-- Segunda columna con dos tarjetas en posición vertical -->
+                <div class="flex-1">
+                    <!-- Tarjeta 1 -->
+                    <a href="#"
+                        class="block max-w-full  bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div class="w-full h-full" tabindex="64">
+                            <img src="https://www.supercines.com/Promotions/imax-footer-1820221222.jpg"
+                                class="w-full h-full object-cover rounded-lg" alt="Vive la experiencia IMAX">
+                        </div>
+                    </a>
+
+                    <!-- Tarjeta 2 -->
+                    <a href="#"
+                        class="block max-w-full my-4  bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div class="w-full h-full" tabindex="65">
+                            <img src="https://www.supercines.com/Promotions/canguil-28120230805.jpg"
+                                class="w-full h-full object-cover rounded-lg" alt="Descubre más sabores de canguil">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Prices Section -->
+
+    <section>
+        <div class="bg-gray-900 dark:bg-gray-900">
+            <div class="container px-6 py-8 mx-auto">
+                <h1 class="mt-4 text-2xl font-semibold text-center text-white capitalize lg:text-3xl dark:text-white"
+                    tabindex="66">Conoce nuestros precios</h1>
+                <div class="mt-6 space-y-8 xl:mt-12">
+                    <div
+                        class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border cursor-pointer rounded-xl dark:border-gray-700">
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-users fa-lg" style="color: #ffffff;"></i>
+                            <div class="flex flex-col items-center mx-5 space-y-1">
+                                <h2 class="text-lg font-medium text-white sm:text-2xl dark:text-gray-200" tabindex="67">
+                                    General</h2>
+                                <div class="px-2 text-xs text-blue-500  rounded-full sm:px-4 sm:py-1 dark:bg-gray-700"
+                                    tabindex="68">
+                                    Costo de entrada para público general
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="text-2xl font-semibold text-gray-500 sm:text-3xl dark:text-gray-300" tabindex="69">$
+                            7.39</h2>
+                    </div>
+                    <div
+                        class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border border-blue-500 cursor-pointer rounded-xl">
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-star fa-xl" style="color: #ffffff;"></i>
+                            <div class="flex flex-col items-center mx-5 space-y-1">
+                                <h2 class="text-lg font-medium text-white sm:text-2xl dark:text-gray-200" tabindex="70">
+                                    Club Beneficios Supercines</h2>
+                                <div class="px-2 text-xs text-blue-500  rounded-full sm:px-4 sm:py-1 dark:bg-gray-700"
+                                    tabindex="71">
+                                    Tienes hasta 4 entradas disponibles del Club de Beneficios para hoy
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="text-2xl font-semibold text-white sm:text-4xl" tabindex="72">$ 6.72</h2>
+                    </div>
+                    <div
+                        class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border cursor-pointer rounded-xl dark:border-gray-700">
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-universal-access fa-xl" style="color: #ffffff;"></i>
+                            <div class="flex flex-col items-center mx-5 space-y-1">
+                                <h2 class="text-lg font-medium text-white sm:text-2xl dark:text-gray-200" tabindex="73">
+                                    Descuentos</h2>
+                                <div class="px-2 text-xs text-blue-500 rounded-full sm:px-4 sm:py-1 dark:bg-gray-700"
+                                    tabindex="74">
+                                    Tercera Edad y Personas con Discapacidad
+                                    <p>Se requiere presentar cédula de identidad</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="text-2xl font-semibold text-white sm:text-3xl dark:text-gray-300" tabindex="75">$
+                            3.95</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-gray-900 dark:bg-gray-900" tabindex="76" aria-label="Pie de Página">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="https://flowbite.com/" class="flex items-center" tabindex="77">
+                        <i class="fa-solid fa-ticket fa-2xl mx-4" style="color:#ffffff"></i>
+                        <span class="self-center  text-white text-2xl font-semibold whitespace-nowrap dark:text-white">
+                            Supercines</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white" tabindex="78">
+                            Cartelera</h2>
+                        <ul class="text-gray-400 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline" tabindex="79">Todas las
+                                    películas</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline" tabindex="80">Próximos Estrenos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline" tabindex="81">Preventa</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white" tabindex="82">
+                            Contáctanos</h2>
+                        <ul class="text-gray-400 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="https://www.supercines.com/escribenos" class="hover:underline"
+                                    tabindex="83">Escríbenos</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://www.supercines.com/escribenos" class="hover:underline"
+                                    tabindex="84">Trabaja
+                                    con Nosotros</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://www.supercines.com/escribenos" class="hover:underline"
+                                    tabindex="85">Quejas
+                                    y Sugerencias</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div
+                            class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white"><i
+                                        class="fa-solid fa-headphones mx-2" tabindex="86"></i> Atención al Cliente</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="87">Teléfono:
+                                1-800-626262 </p>
+                            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="88">Horario : 10h00am
+                                -
+                                21h00pm</p>
+                            <a href="#" class="inline-flex items-center text-blue-600 hover:underline" tabindex="89">
+                                Solicita asistencia en tu compra
+                                <svg class="w-3 h-3 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 18 18" role="img">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between" tabindex="90">
+                <span class="text-sm text-gray-400 sm:text-center dark:text-gray-400">© 2020
+                    <a href="#" class="hover:underline">Corporación El Rosado S.A.</a>
+                    Todos los derechos reservados.
+                </span>
+                <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 8 19" role="img">
+                            <path fill-rule="evenodd"
+                                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                                clip-rule="evenodd" />
                         </svg>
+                        <span class="sr-only" tabindex="91" role="button">Facebook page</span>
                     </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span class="sr-only" tabindex="92" role="button">Instagram page</span>
+                    </a>
+                    <!--
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 20 17" role="img">
+                            <path fill-rule="evenodd"
+                                d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </a>
+                    -->
                 </div>
             </div>
         </div>
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between" tabindex="90">
-            <span class="text-sm text-gray-400 sm:text-center dark:text-gray-400" tabindex="90" >© 2020 <a href="https://flowbite.com/" class="hover:underline">Corporación El Rosado S.A.</a>Todos los derechos reservados.
-            </span>
-        <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
-                    </svg>
-                <span class="sr-only" tabindex="91" >Facebook page</span>
-            </a>
-            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                <i class="fa-brands fa-instagram"></i>
-                <span class="sr-only" tabindex="92">Instagram</span>
-            </a>
-            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
-                </svg>
-                <span class="sr-only" tabindex="93">Twitter page</span>
-            </a>
-        </div>
-    </div>
-    </div>
-</footer>
-
+    </footer>
 
 
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 </body>
+
 </html>
