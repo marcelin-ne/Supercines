@@ -942,8 +942,8 @@ body.active { overflow: hidden; }
   /*background: url("../images/elemental_wallpaper.jpg") no-repeat;*/
   background-size: cover;
   background-position: center;
-  padding-top: 160px;
-  padding-bottom: var(--section-padding);
+  padding-top: 80px;
+  
 }
 
 .movie-detail-banner {
@@ -1464,7 +1464,7 @@ body.active { overflow: hidden; }
     position: relative;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 150px;
   }
 
   .movie-detail-banner,
