@@ -14,7 +14,7 @@
     - custom css link
     -->
     <link rel="stylesheet" href="../assets/css/style.css">
-     <!--Fontawesome-->
+    <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/5d3f8aa1f4.js" crossorigin="anonymous"></script>
     <!-- 
     - google font link
@@ -26,7 +26,7 @@
 
     <!--Tailwind-->
     <!--Flowbite-->
-  
+
 </head>
 
 <body id="#top">
@@ -181,17 +181,17 @@
             <div class="meta-wrapper">
                 <!--Restricción de Edad de la Pelicula -->
                 <div class="badge-wrapper">
-                    <div class="badge badge-fill" tabindex="19"> + 15</div>
+                    <div class="badge badge-fill" tabindex="19" aria-label="Edad permitida +15"> + 15</div>
                 </div>
                 <!--Género de la película -->
                 <div class="ganre-wrapper">
-                    <p tabindex="20" class="text-white">Suspenso</p>
+                    <p tabindex="20" class="text-white" aria-label="Categoría de película: Suspenso">Suspenso</p>
                 </div>
                 <div class="date-time">
                     <!--Duracion de la Pelicula -->
                     <div>
                         <ion-icon name="time-outline"></ion-icon>
-                        <time datetime="PT115M" tabindex="21">3h 00min</time>
+                        <time datetime="PT115M" tabindex="21" aria-label="Duración: 3 horas 0 minutos">3h 00min</time>
                     </div>
                 </div>
                 <!--Descripcion de la Pelicula -->
@@ -203,9 +203,12 @@
                 mundo para poder salvarlo.
             </p>
         </div>
-        <div class="w-72 sm:w-2 sm:h-10 sm:items-center flex sm:px-4 h-80 md:flex justify-center px-8 pt-4">
+        <div class="w-72 sm:w-2 sm:h-10 sm:items-center flex sm:px-4 h-80 md:flex justify-center px-8 pt-4" tabindex="24">
             <!--Trailer de la Pelicula -->
-                <iframe width="full" height="full" src="https://www.youtube.com/embed/gMPEbJQun68?si=G3wAUy9icGoi1hn7" title="YouTube video player" class="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="full" height="full" src="https://www.youtube.com/embed/gMPEbJQun68?si=G3wAUy9icGoi1hn7"
+                    title="Trailer de película Oppenheimer" class="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
         </div>
     </div>
 </section>
@@ -288,72 +291,88 @@
                     <!-- Fila 1 -->
                     <div class="mb-4 py-2">
                         <div class="badge-wrapper">
-                            <div class="bg-yellow-200 text-gray-900  text-xs font-medium mr-2 px-2.5 py-0.5 m-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300"" tabindex="38"> 3D</div>
-                            <!--Formato de la Pelicula-->
-                            <div class="bg-yellow-200 text-gray-900 text-xs font-medium mr-2 px-2.5 py-0.5 m-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300"" tabindex="39"> Subtitulada</div>
-                            <!--Idioma de la pelicula-->
-                            <div tabindex="40">Sillas: General</div>
-                            <div tabindex="41">IMAX</div>
+                            <div class="bg-yellow-200 text-gray-900  text-xs font-medium mr-2 px-2.5 py-0.5 m-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300"
+                            " tabindex="38"> 3D
                         </div>
+                        <!--Formato de la Pelicula-->
+                        <div class="bg-yellow-200 text-gray-900 text-xs font-medium mr-2 px-2.5 py-0.5 m-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300"
+                        " tabindex="39"> Subtitulada
                     </div>
-                    <!-- Horarios-->
-                    <div>
-                        <div class="badge-wrapper">
-                            <a href="movie-buy.html">
-                                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"" tabindex="42">18h00</button>
-                            </a>
-                            <!--Formato de la Pelicula-->
-                            <a href="movie-buy.html">
-                                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"" tabindex="43"> 19h00</button>
-                            </a>
-                            <!--Idioma de la pelicula-->
-                            <a href="movie-buy.html">
-                                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"" tabindex="44"> 19h45</button>
-                            </a>
-                            <!--Formato de la Pelicula-->
-                            <a href="movie-buy.html">
-                                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"" tabindex="45">20h00</button>
-                            </a>
-                            <!--Idioma de la pelicula-->
-                        </div>
-                    </div>
+                    <!--Idioma de la pelicula-->
+                    <div tabindex="40">Sillas: General</div>
+                    <div tabindex="41">IMAX</div>
                 </div>
-                <br>
-                <div class="bg-white p-4 shadow-lg m-2 rounded-lg">
-                    <!-- Fila 1 -->
-                    <div class="mb-4">
-                        <div class="badge-wrapper">
-                            <div class="bg-yellow-200 text-gray-900 text-xs font-medium mr-2 px-2.5 py-0.5 m-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300"" tabindex="46"> 2D</div>
-                            <!--Formato de la Pelicula-->
-                            <div class="bg-yellow-200 text-gray-900 text-xs font-medium mr-2 px-2.5 py-0.5 m-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300"" tabindex="47"> Doblada</div>
-                            <!--Idioma de la pelicula-->
-                            <div tabindex="48">Sillas: General</div>
-                        </div>
-                    </div>
-                    <!-- Horarios-->
-                    <div>
-                        <div class="badge-wrapper">
-                            <a href="movie-buy.html">
-                                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"" tabindex="49"> 18h00</button>
-                            </a>
-                            <!--Formato de la Pelicula-->
-                            <a href="movie-buy.html">
-                                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"" tabindex="50"> 19h00</button>
-                            </a>
-                            <!--Idioma de la pelicula-->
-                            <a href="movie-buy.html">
-                                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"" tabindex="51"> 19h45</button>
-                            </a>
-                            <!--Formato de la Pelicula-->
-                            <a href="movie-buy.html">
-                                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"" tabindex="52">20h00</button>
-                            </a>
-                            <!--Idioma de la pelicula-->
-                        </div>
-                    </div>
+            </div>
+            <!-- Horarios-->
+            <div>
+                <div class="badge-wrapper">
+                    <a href="movie-buy.html">
+                        <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"
+                        " tabindex="42">18h00</button>
+                    </a>
+                    <!--Formato de la Pelicula-->
+                    <a href="movie-buy.html">
+                        <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"
+                        " tabindex="43"> 19h00</button>
+                    </a>
+                    <!--Idioma de la pelicula-->
+                    <a href="movie-buy.html">
+                        <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"
+                        " tabindex="44"> 19h45</button>
+                    </a>
+                    <!--Formato de la Pelicula-->
+                    <a href="movie-buy.html">
+                        <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"
+                        " tabindex="45">20h00</button>
+                    </a>
+                    <!--Idioma de la pelicula-->
                 </div>
             </div>
         </div>
+        <br>
+        <div class="bg-white p-4 shadow-lg m-2 rounded-lg">
+            <!-- Fila 1 -->
+            <div class="mb-4">
+                <div class="badge-wrapper">
+                    <div class="bg-yellow-200 text-gray-900 text-xs font-medium mr-2 px-2.5 py-0.5 m-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300"
+                    " tabindex="46"> 2D
+                </div>
+                <!--Formato de la Pelicula-->
+                <div class="bg-yellow-200 text-gray-900 text-xs font-medium mr-2 px-2.5 py-0.5 m-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300"
+                " tabindex="47"> Doblada
+            </div>
+            <!--Idioma de la pelicula-->
+            <div tabindex="48">Sillas: General</div>
+        </div>
+    </div>
+    <!-- Horarios-->
+    <div>
+        <div class="badge-wrapper">
+            <a href="movie-buy.html">
+                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"
+                " tabindex="49"> 18h00</button>
+            </a>
+            <!--Formato de la Pelicula-->
+            <a href="movie-buy.html">
+                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"
+                " tabindex="50"> 19h00</button>
+            </a>
+            <!--Idioma de la pelicula-->
+            <a href="movie-buy.html">
+                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"
+                " tabindex="51"> 19h45</button>
+            </a>
+            <!--Formato de la Pelicula-->
+            <a href="movie-buy.html">
+                <button class="bg-gray-300 text-gray-900 text-xs font-medium mr-2 px-2.5 py-1.5 m-2 rounded dark:bg-gray-700 dark:text-gray-300"
+                " tabindex="52">20h00</button>
+            </a>
+            <!--Idioma de la pelicula-->
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
 
 </section>
@@ -409,7 +428,8 @@
                 <div>
                     <div class="max-w-sm sm:w-100 p-6 bg-white border border-gray-200 m-2 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
                         <p href="#">
-                            <h5 class="mb-2 md:text-2xl sm:text-base font-semibold tracking-tight text-gray-900 dark:text-white"><i
+                        <h5 class="mb-2 md:text-2xl sm:text-base font-semibold tracking-tight text-gray-900 dark:text-white">
+                            <i
                                     class="fa-solid fa-headphones mx-2" tabindex="86"></i> Atención al Cliente</h5>
                         </p>
                         <p class="mb-3 font-normal text-gray-500 dark:text-gray-400" tabindex="87">Teléfono:
@@ -419,10 +439,10 @@
                         <a href="#" class="inline-flex items-center text-blue-600 hover:underline" tabindex="89">
                             Solicita asistencia en tu compra
                             <svg class="w-3 h-3 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                fill="none" viewBox="1 1 18 18" role="img">
+                                 fill="none" viewBox="1 1 18 18" role="img">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M15 11v4.833A1.166 1.166 1 1 1 13.833 17H2.167A1.167 1.167 1 1 1 1 15.833V4.167A1.166 1.166 1 1 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+                                      stroke-width="2"
+                                      d="M15 11v4.833A1.166 1.166 1 1 1 13.833 17H2.167A1.167 1.167 1 1 1 1 15.833V4.167A1.166 1.166 1 1 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
                             </svg>
                         </a>
                     </div>
@@ -433,7 +453,7 @@
         <div class="sm:flex sm:items-center sm:justify-between" tabindex="90">
             <span class="text-sm text-gray-400 sm:text-center dark:text-gray-400">© 2020
             </span>
-            <p class="hover:underline text-gray-400 ">Corporación El Rosado S.A.</p> 
+            <p class="hover:underline text-gray-400 ">Corporación El Rosado S.A.</p>
             <p class="text-gray-400 "> Todos los derechos reservados.</p>
         </div>
     </div>
