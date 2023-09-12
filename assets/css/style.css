@@ -1478,7 +1478,19 @@ body.active { overflow: hidden; }
 
 }
 
-
+/*Movie buy*/
+/** Responsive for small **/
+@media (max-width: 640px)  {
+  .stepper .compra {
+    display: none;
+  }
+  .stepper .pago {
+    display: none;
+  }
+  .stepper .asientos {
+    display: none;
+  }
+}
 
 
 
